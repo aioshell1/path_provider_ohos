@@ -9,7 +9,7 @@ permissions: read-all
 
 jobs:
   release:
-    if: github.repository_owner == 'flutter'
+    if: github.repository_owner == 'aioshell1'
     name: release
     permissions:
       # Release needs to push a tag back to the repo.
