@@ -21,6 +21,8 @@ flutter:
         default_package: path_provider_foundation
       windows:
         default_package: path_provider_windows
+      ohos:
+        default_package: path_provider_ohos
 
 dependencies:
   flutter:
@@ -30,6 +32,10 @@ dependencies:
   path_provider_linux: ^2.2.0
   path_provider_platform_interface: ^2.1.0
   path_provider_windows: ^2.2.0
+  path_provider_ohos:
+    git:
+      url: "https://github.com/aioshell1/path_provider_ohos.git"
+      path: "path_provider_ohos"
 
 dev_dependencies:
   flutter_test:
