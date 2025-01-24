@@ -42,6 +42,9 @@ jobs:
       - name: "Install Tools"
         run: ./.github/workflows/scripts/install-tools.sh
 
+      - name: "Update melos.yaml for SDK Path"
+        run:  "sed -i \"s|sdkPath:.*|sdkPath: $GITHUB_WORKSPACE/_flutter|\" melos.yaml"
+
       - name: "Build Example"
         run: ./.github/workflows/scripts/build-examples.sh android ./lib/main.dart
 
