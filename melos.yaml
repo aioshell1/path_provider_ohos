@@ -7,7 +7,7 @@ repository: https://github.com/fluttercommunity/plus_plugins
 # Instead of one recursive glob, we use multiple globs to avoid
 # searching every single directory in the repo.
 packages:
-  - *
+  - ./*
 
 command:
   version:

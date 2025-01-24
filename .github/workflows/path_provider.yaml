@@ -44,6 +44,7 @@ jobs:
       - name: "Build Example"
         run: ./.github/workflows/scripts/build-examples.sh android ./lib/main.dart
 
+
   android_integration_test:
     runs-on: macos-13
     timeout-minutes: 30
