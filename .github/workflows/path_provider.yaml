@@ -27,7 +27,7 @@ on:
 env:
   PLUGIN_SCOPE: "*path_provider*"
   PLUGIN_EXAMPLE_SCOPE: "*path_provider_example*"
-  GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+  FLUTTER_GIT_URL: "https://gitee.com/harmonycommando_flutter/flutter.git"
 
 jobs:
   android_example_build:
