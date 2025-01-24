@@ -24,6 +24,7 @@ on:
       - "!**.gitignore"
       - "*.yaml"
 
+
 env:
   PLUGIN_SCOPE: "*path_provider*"
   PLUGIN_EXAMPLE_SCOPE: "*path_provider_example*"
