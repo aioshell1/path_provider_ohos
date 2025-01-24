@@ -27,6 +27,7 @@ on:
 env:
   PLUGIN_SCOPE: "*path_provider*"
   PLUGIN_EXAMPLE_SCOPE: "*path_provider_example*"
+  GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
 jobs:
   android_example_build:
