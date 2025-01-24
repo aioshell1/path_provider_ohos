@@ -6,6 +6,7 @@ DEFAULT_TARGET="./test_driver/MELOS_PARENT_PACKAGE_NAME_e2e.dart"
 
 ACTION=$1
 TARGET_FILE=${2:-$DEFAULT_TARGET}
+flutter --version || { echo "Flutter not installed or not in PATH"; exit 1; }
 
 if [ "$ACTION" == "android" ]
 then
