@@ -41,6 +41,7 @@ scripts:
 
   build:all:
     run: |
+      flutter doctor -v
       melos bootstrap
       melos run build:example_ios_pub --no-select
       melos run build:example_android_pub --no-select
