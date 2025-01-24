@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 DEFAULT_TARGET="./test_driver/MELOS_PARENT_PACKAGE_NAME_e2e.dart"
 
 ACTION=$1
