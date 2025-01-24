@@ -252,6 +252,3 @@ scripts:
   # Additional cleanup lifecycle script, executed when `melos clean` is ran.
   postclean: >
     melos exec -c 6 -- "flutter clean"
-
-
-sdkPath: GITHUB_WORKSPACE/_flutter
