@@ -16,10 +16,6 @@ command:
     # Skip generation of shared changelogs file in the repo root
     workspaceChangelog: false
 
-commands:
-  bootstrap:
-    run: $GITHUB_WORKSPACE/_flutter/bin/flutter pub get
-
 scripts:
   lint:all:
     run: melos run analyze && melos run format
@@ -256,3 +252,6 @@ scripts:
   # Additional cleanup lifecycle script, executed when `melos clean` is ran.
   postclean: >
     melos exec -c 6 -- "flutter clean"
+
+
+sdkPath: $GITHUB_WORKSPACE/_flutter
