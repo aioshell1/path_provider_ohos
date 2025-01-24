@@ -10,7 +10,7 @@ defaults:
     shell: bash
 
 on:
-  pull_request:
+  push:
     paths:
       - "path_provider/**"
       - "path_provider_android/**"
