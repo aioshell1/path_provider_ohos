@@ -22,7 +22,8 @@ on:
       - ".github/workflows/path_provider.yaml"
       - "!**.md"
       - "!**.gitignore"
-      - "melos.yaml"
+      - "*.yaml"
+
 
 env:
   PLUGIN_SCOPE: "*path_provider*"
