@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 BRANCH=$1
 
 git clone https://gitee.com/harmonycommando_flutter/flutter.git -b $BRANCH _flutter

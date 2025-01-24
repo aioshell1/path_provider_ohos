@@ -29,7 +29,6 @@ env:
   PLUGIN_EXAMPLE_SCOPE: "*path_provider_example*"
   FLUTTER_GIT_URL: "https://gitee.com/harmonycommando_flutter/flutter.git"
 
-
 jobs:
   android_example_build:
     runs-on: macos-13
