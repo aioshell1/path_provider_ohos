@@ -34,6 +34,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -52,6 +54,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -75,6 +79,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -88,6 +94,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -107,6 +115,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -120,6 +130,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -135,6 +147,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -148,6 +162,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -163,6 +179,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -176,6 +194,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
@@ -191,6 +211,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
+      - name: "Make sh executable"
+        run: chmod +x .github/workflows/scripts/*.sh
       - name: "Install Flutter"
         run: ./.github/workflows/scripts/install-flutter.sh oh-3.22.0
       - name: "Install Tools"
