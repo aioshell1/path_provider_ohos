@@ -41,7 +41,9 @@ scripts:
 
   build:all:
     run: |
+      echo "dssssss"
       flutter doctor -v
+      echo "dssssss"
       melos bootstrap
       melos run build:example_ios_pub --no-select
       melos run build:example_android_pub --no-select
