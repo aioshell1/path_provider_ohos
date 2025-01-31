@@ -19,7 +19,7 @@ on:
       - "path_provider_ohos/**"
       - "path_provider_platform_interface/**"
       - "path_provider_windows/**"
-      - ".github/workflows/**"
+      - ".github/workflows/path_provider.yaml"
       - "!**.md"
       - "!**.gitignore"
 
