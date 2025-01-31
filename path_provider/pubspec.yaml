@@ -27,7 +27,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  path_provider_android: ^2.2.5
+  path_provider_android:
+    git:
+      url: "https://github.com/aioshell1/path_provider_ohos.git"
+      path: "path_provider_android"
+      ref: "main"
   path_provider_foundation: ^2.3.2
   path_provider_linux: ^2.2.0
   path_provider_platform_interface: ^2.1.0
@@ -36,6 +40,7 @@ dependencies:
     git:
       url: "https://github.com/aioshell1/path_provider_ohos.git"
       path: "path_provider_ohos"
+      ref: "main"
 
 dev_dependencies:
   flutter_test:
